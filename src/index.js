@@ -1,10 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TopCards from "./TopCards";
+import App from "./components/app";
 
-ReactDOM.render(
-  <div>
-    <TopCards />
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
